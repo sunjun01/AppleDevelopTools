@@ -10,6 +10,21 @@
 		7B1F72352648FB2B004318E6 /* Data+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F72342648FB2B004318E6 /* Data+Addition.swift */; };
 		7B1F72372648FC0D004318E6 /* Dictionary+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F72362648FC0D004318E6 /* Dictionary+Addition.swift */; };
 		7B1F723926490C02004318E6 /* String+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F723826490C02004318E6 /* String+Addition.swift */; };
+		7B1F724D26492E0A004318E6 /* HttpBaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F724B26492E0A004318E6 /* HttpBaseItem.swift */; };
+		7B1F724E26492E0A004318E6 /* HttpBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F724C26492E0A004318E6 /* HttpBatch.swift */; };
+		7B1F725326492E15004318E6 /* HttpCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F724F26492E15004318E6 /* HttpCacheManager.swift */; };
+		7B1F725426492E15004318E6 /* HttpBaseCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725026492E15004318E6 /* HttpBaseCache.swift */; };
+		7B1F725526492E15004318E6 /* HttpDBCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725126492E15004318E6 /* HttpDBCache.swift */; };
+		7B1F725626492E15004318E6 /* HttpMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725226492E15004318E6 /* HttpMemoryCache.swift */; };
+		7B1F725826492E5C004318E6 /* HttpCodeBaseRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725726492E5C004318E6 /* HttpCodeBaseRunner.swift */; };
+		7B1F725A26492EC8004318E6 /* NetworkErrorRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725926492EC8004318E6 /* NetworkErrorRunner.swift */; };
+		7B1F725C26492F34004318E6 /* Http200Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725B26492F34004318E6 /* Http200Runner.swift */; };
+		7B1F725E26493035004318E6 /* Http201Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725D26493035004318E6 /* Http201Runner.swift */; };
+		7B1F726026493090004318E6 /* Http401Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F725F26493090004318E6 /* Http401Runner.swift */; };
+		7B1F726226493312004318E6 /* Http404Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F726126493312004318E6 /* Http404Runner.swift */; };
+		7B1F72642649333D004318E6 /* Http500Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F72632649333D004318E6 /* Http500Runner.swift */; };
+		7B1F72682649342B004318E6 /* HttpDBCache.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F72662649342B004318E6 /* HttpDBCache.xcdatamodeld */; };
+		7B1F726A26493848004318E6 /* HttpEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F726926493848004318E6 /* HttpEngine.swift */; };
 		7B3781EA264664A000AE5BBF /* AppleDevelopTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3781E0264664A000AE5BBF /* AppleDevelopTools.framework */; };
 		7B3781EF264664A000AE5BBF /* AppleDevelopToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3781EE264664A000AE5BBF /* AppleDevelopToolsTests.swift */; };
 		7B3781F1264664A000AE5BBF /* AppleDevelopTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3781E3264664A000AE5BBF /* AppleDevelopTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +45,21 @@
 		7B1F72342648FB2B004318E6 /* Data+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Addition.swift"; sourceTree = "<group>"; };
 		7B1F72362648FC0D004318E6 /* Dictionary+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Addition.swift"; sourceTree = "<group>"; };
 		7B1F723826490C02004318E6 /* String+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Addition.swift"; sourceTree = "<group>"; };
+		7B1F724B26492E0A004318E6 /* HttpBaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpBaseItem.swift; sourceTree = "<group>"; };
+		7B1F724C26492E0A004318E6 /* HttpBatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpBatch.swift; sourceTree = "<group>"; };
+		7B1F724F26492E15004318E6 /* HttpCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpCacheManager.swift; sourceTree = "<group>"; };
+		7B1F725026492E15004318E6 /* HttpBaseCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpBaseCache.swift; sourceTree = "<group>"; };
+		7B1F725126492E15004318E6 /* HttpDBCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpDBCache.swift; sourceTree = "<group>"; };
+		7B1F725226492E15004318E6 /* HttpMemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMemoryCache.swift; sourceTree = "<group>"; };
+		7B1F725726492E5C004318E6 /* HttpCodeBaseRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCodeBaseRunner.swift; sourceTree = "<group>"; };
+		7B1F725926492EC8004318E6 /* NetworkErrorRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorRunner.swift; sourceTree = "<group>"; };
+		7B1F725B26492F34004318E6 /* Http200Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http200Runner.swift; sourceTree = "<group>"; };
+		7B1F725D26493035004318E6 /* Http201Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http201Runner.swift; sourceTree = "<group>"; };
+		7B1F725F26493090004318E6 /* Http401Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http401Runner.swift; sourceTree = "<group>"; };
+		7B1F726126493312004318E6 /* Http404Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http404Runner.swift; sourceTree = "<group>"; };
+		7B1F72632649333D004318E6 /* Http500Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http500Runner.swift; sourceTree = "<group>"; };
+		7B1F72672649342B004318E6 /* HttpDBCache.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HttpDBCache.xcdatamodel; sourceTree = "<group>"; };
+		7B1F726926493848004318E6 /* HttpEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpEngine.swift; sourceTree = "<group>"; };
 		7B3781E0264664A000AE5BBF /* AppleDevelopTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppleDevelopTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3781E3264664A000AE5BBF /* AppleDevelopTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleDevelopTools.h; sourceTree = "<group>"; };
 		7B3781E4264664A000AE5BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +98,60 @@
 			path = Additions;
 			sourceTree = "<group>";
 		};
+		7B1F723B26491E02004318E6 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F724A26492DBB004318E6 /* HttpItem */,
+				7B1F724926492DB4004318E6 /* HttpCache */,
+				7B1F724826492DA7004318E6 /* HttpCodeRunner */,
+				7B1F726926493848004318E6 /* HttpEngine.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		7B1F724826492DA7004318E6 /* HttpCodeRunner */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F725726492E5C004318E6 /* HttpCodeBaseRunner.swift */,
+				7B1F725926492EC8004318E6 /* NetworkErrorRunner.swift */,
+				7B1F725B26492F34004318E6 /* Http200Runner.swift */,
+				7B1F725D26493035004318E6 /* Http201Runner.swift */,
+				7B1F725F26493090004318E6 /* Http401Runner.swift */,
+				7B1F726126493312004318E6 /* Http404Runner.swift */,
+				7B1F72632649333D004318E6 /* Http500Runner.swift */,
+			);
+			path = HttpCodeRunner;
+			sourceTree = "<group>";
+		};
+		7B1F724926492DB4004318E6 /* HttpCache */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F7265264933C0004318E6 /* DB */,
+				7B1F725026492E15004318E6 /* HttpBaseCache.swift */,
+				7B1F724F26492E15004318E6 /* HttpCacheManager.swift */,
+				7B1F725126492E15004318E6 /* HttpDBCache.swift */,
+				7B1F725226492E15004318E6 /* HttpMemoryCache.swift */,
+			);
+			path = HttpCache;
+			sourceTree = "<group>";
+		};
+		7B1F724A26492DBB004318E6 /* HttpItem */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F724B26492E0A004318E6 /* HttpBaseItem.swift */,
+				7B1F724C26492E0A004318E6 /* HttpBatch.swift */,
+			);
+			path = HttpItem;
+			sourceTree = "<group>";
+		};
+		7B1F7265264933C0004318E6 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F72662649342B004318E6 /* HttpDBCache.xcdatamodeld */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
 		7B3781D6264664A000AE5BBF = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +175,7 @@
 			children = (
 				7B3781E3264664A000AE5BBF /* AppleDevelopTools.h */,
 				7B3781E4264664A000AE5BBF /* Info.plist */,
+				7B1F723B26491E02004318E6 /* HTTP */,
 				7B1F72332648FAC2004318E6 /* Additions */,
 				7B3781FA264664E700AE5BBF /* JSON */,
 			);
@@ -222,9 +307,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1F726A26493848004318E6 /* HttpEngine.swift in Sources */,
+				7B1F726226493312004318E6 /* Http404Runner.swift in Sources */,
+				7B1F724E26492E0A004318E6 /* HttpBatch.swift in Sources */,
+				7B1F725A26492EC8004318E6 /* NetworkErrorRunner.swift in Sources */,
+				7B1F726026493090004318E6 /* Http401Runner.swift in Sources */,
+				7B1F725326492E15004318E6 /* HttpCacheManager.swift in Sources */,
+				7B1F724D26492E0A004318E6 /* HttpBaseItem.swift in Sources */,
+				7B1F725626492E15004318E6 /* HttpMemoryCache.swift in Sources */,
+				7B1F725526492E15004318E6 /* HttpDBCache.swift in Sources */,
+				7B1F72682649342B004318E6 /* HttpDBCache.xcdatamodeld in Sources */,
 				7B1F72372648FC0D004318E6 /* Dictionary+Addition.swift in Sources */,
+				7B1F72642649333D004318E6 /* Http500Runner.swift in Sources */,
+				7B1F725826492E5C004318E6 /* HttpCodeBaseRunner.swift in Sources */,
 				7B3781FC264664E800AE5BBF /* JSONKit.swift in Sources */,
+				7B1F725426492E15004318E6 /* HttpBaseCache.swift in Sources */,
 				7B1F723926490C02004318E6 /* String+Addition.swift in Sources */,
+				7B1F725E26493035004318E6 /* Http201Runner.swift in Sources */,
+				7B1F725C26492F34004318E6 /* Http200Runner.swift in Sources */,
 				7B1F72352648FB2B004318E6 /* Data+Addition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +589,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B1F72662649342B004318E6 /* HttpDBCache.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B1F72672649342B004318E6 /* HttpDBCache.xcdatamodel */,
+			);
+			currentVersion = 7B1F72672649342B004318E6 /* HttpDBCache.xcdatamodel */;
+			path = HttpDBCache.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7B3781D7264664A000AE5BBF /* Project object */;
 }
