@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1F72352648FB2B004318E6 /* Data+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F72342648FB2B004318E6 /* Data+Addition.swift */; };
+		7B1F72372648FC0D004318E6 /* Dictionary+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F72362648FC0D004318E6 /* Dictionary+Addition.swift */; };
+		7B1F723926490C02004318E6 /* String+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F723826490C02004318E6 /* String+Addition.swift */; };
 		7B3781EA264664A000AE5BBF /* AppleDevelopTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3781E0264664A000AE5BBF /* AppleDevelopTools.framework */; };
 		7B3781EF264664A000AE5BBF /* AppleDevelopToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3781EE264664A000AE5BBF /* AppleDevelopToolsTests.swift */; };
 		7B3781F1264664A000AE5BBF /* AppleDevelopTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3781E3264664A000AE5BBF /* AppleDevelopTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B1F72342648FB2B004318E6 /* Data+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Addition.swift"; sourceTree = "<group>"; };
+		7B1F72362648FC0D004318E6 /* Dictionary+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Addition.swift"; sourceTree = "<group>"; };
+		7B1F723826490C02004318E6 /* String+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Addition.swift"; sourceTree = "<group>"; };
 		7B3781E0264664A000AE5BBF /* AppleDevelopTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppleDevelopTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3781E3264664A000AE5BBF /* AppleDevelopTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleDevelopTools.h; sourceTree = "<group>"; };
 		7B3781E4264664A000AE5BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +58,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B1F72332648FAC2004318E6 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F72342648FB2B004318E6 /* Data+Addition.swift */,
+				7B1F72362648FC0D004318E6 /* Dictionary+Addition.swift */,
+				7B1F723826490C02004318E6 /* String+Addition.swift */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
 		7B3781D6264664A000AE5BBF = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +91,7 @@
 			children = (
 				7B3781E3264664A000AE5BBF /* AppleDevelopTools.h */,
 				7B3781E4264664A000AE5BBF /* Info.plist */,
+				7B1F72332648FAC2004318E6 /* Additions */,
 				7B3781FA264664E700AE5BBF /* JSON */,
 			);
 			path = AppleDevelopTools;
@@ -205,7 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1F72372648FC0D004318E6 /* Dictionary+Addition.swift in Sources */,
 				7B3781FC264664E800AE5BBF /* JSONKit.swift in Sources */,
+				7B1F723926490C02004318E6 /* String+Addition.swift in Sources */,
+				7B1F72352648FB2B004318E6 /* Data+Addition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
